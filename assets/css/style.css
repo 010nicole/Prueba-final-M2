@@ -1,12 +1,16 @@
-.navbar img {
-    width: 15%;
+body {
+    font-family: "Open Sans", sans-serif;
+}
 
+.navbar img {
+    width: 10%;
 }
 
 .navbar a {
     color: white;
 }
-.tooltip-inner{
+
+.tooltip-inner {
     background-color: gray;
 }
 
@@ -15,52 +19,79 @@
     color: white;
     font-size: 2.3em;
     height: 1.3em;
-
 }
 
-.quienes-somos{
+.card-text {
+    text-align: justify
+}
+
+.quienes-somos {
     background-color: black;
     color: white;
     text-align: center;
     padding: 30px 0px;
 }
-.quienes-somos .card{
+
+.quienes-somos .card {
     width: 23rem;
 }
-.quienes-somos .card-body{
-padding: 0%;
+
+.quienes-somos .card-body {
+    padding: 0%;
 }
-.quienes-somos p{
+
+.quienes-somos p {
     font-size: 0.8em;
 }
-.quienes-somos i{
+
+.quienes-somos i {
     text-align: center;
     padding: 4px;
 }
 
-#destacados{
-  text-align: center;
-  padding: 30px 0px;
+.destacados {
+    text-align: center;
+    padding: 30px 0px;
 }
-#destacados .card{
-padding: 0px;
-width: 16.4rem;
-  }
+
+.destacados .row {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.destacados .card {
+    padding: 0px;
+    width: 16.4rem;
+}
+
 main {
     background-color: black;
     color: white;
 }
-form{
+
+form {
     margin-top: 20px;
     padding: 30px 0px;
 
 }
-form h3{
-text-align: center;
+
+form h3 {
+    text-align: center;
 }
-form .boton_enviar{
+
+form .boton_enviar {
     color: rgb(0, 183, 255);
 }
+
+h1,
+h2,
+h3 {
+    border-bottom: solid rgb(104, 103, 103) 1px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -72,12 +103,35 @@ footer {
     font-size: 1.3em;
 
 }
-.container{
+
+.container {
     padding: 30px 0px;
 }
+
 footer i {
     background-color: white;
     color: rgb(0, 183, 255);
     margin-right: 10px;
     padding: 2px;
+}
+
+@media (max-width: 380px) {
+
+    .destacados,
+    form {
+        padding: 0px 20px;
+    }
+
+    .destacados .card {
+        margin-bottom: 20px;
+
+    }
+}
+
+.navWhite {
+    background-color: rgb(114, 113, 113);
+}
+
+.navTransparent {
+    background-color: rgba(0, 0, 0, 0);
 }
