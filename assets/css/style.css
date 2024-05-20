@@ -1,7 +1,11 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
-
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
 .navbar img {
     width: 10%;
 }
@@ -115,7 +119,7 @@ footer i {
     padding: 2px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 413px) {
 
     .destacados,
     form {
